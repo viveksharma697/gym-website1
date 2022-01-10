@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        margin:0px;
+        padding:0px;
+        background-image: url(../imagesfit/gymbg.jpg);
+    }
+    .left{
+        position: absolute;
+        
+        top: 10px;
+        left: 20px;
+        display: inline-block;
+
+color: black;
+background-color: white;
+    }
+    .left img{
+        width: 90px;
+        height: 50px;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        border: 2px solid rgb(0, 255, 170);
+        margin: 10px auto;
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 15px;
+        display: inline-block;
+
+    }
+    .btn{
+        margin: 0px 5px;
+        border: 2px solid blue;
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        background-color: rgb(214, 226, 43);
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+        padding: 5px;
+
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: bisque;
+        
+    }
+    .navbar li a{
+        color: bisque;
+        text-decoration: none;
+    }
+.container{
+    border: 2px solid blue;
+    margin: 2px 2px;
+    padding: 2px;
+    width: 30%;
+    border-radius: 15px;
+    color: brown;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 15px;
+    text-align: center;
+    float: right;
+    background-color: rgb(161, 135, 222);
+
+}
+.form-group input{
+    text-align: center;
+    border: 2px solid blue;
+    margin: 0.5px auto;
+    height: 25px;
+    border-radius: 15px;
+    padding: 2px;
+    width: 300px;
+}
+.container button{
+    display: block;
+    margin: auto;
+}
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+<img src="../imagesfit/04012019-25.jpg" alt="">
+<div>Vivek Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> <strong>Home</strong></a></li>
+                <li><a href="#"><strong>About Us</strong></a></li>
+                <li><a href="#"><strong>Fitness Calculator</strong></a></li>
+                <li><a href="#"><strong>Contact Us</strong></a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">E-mail</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Shimla</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+</html>
